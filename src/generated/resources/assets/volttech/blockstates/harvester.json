@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "volttech:block/harvester",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "volttech:block/harvester"
+    },
+    "facing=south": {
+      "model": "volttech:block/harvester",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "volttech:block/harvester",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect"
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect",
+        "x": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "down": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "north": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "south": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "east": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/diamond_energy_cable_connect",
+        "x": 270,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "west": "true"
+          }
+        ]
+      }
+    }
+  ]
+}

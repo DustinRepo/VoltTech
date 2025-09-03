@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "volttech:block/chunk_loader_frame"
+    }
+  }
+}

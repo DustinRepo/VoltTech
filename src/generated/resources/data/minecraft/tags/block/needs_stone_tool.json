@@ -1,0 +1,23 @@
+{
+  "values": [
+    "volttech:spatial_crate",
+    "volttech:solar_generator",
+    "volttech:mini_reactor",
+    "volttech:small_energy_cube",
+    "volttech:medium_energy_cube",
+    "volttech:large_energy_cube",
+    "volttech:massive_energy_cube",
+    "volttech:creative_energy_cube",
+    "volttech:combustion_generator",
+    "volttech:heat_generator",
+    "volttech:upgrade_table",
+    "volttech:wireless_energy_transmitter",
+    "volttech:harvester",
+    "volttech:powered_furnace",
+    "volttech:crusher",
+    "volttech:food_masher",
+    "volttech:block_breaker",
+    "volttech:block_placer",
+    "volttech:chunk_loader"
+  ]
+}

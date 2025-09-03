@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:blaze_powder",
+    "$": "minecraft:paper",
+    "@": "#c:feathers",
+    "X": "minecraft:sugar"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:speed_upgrade_card"
+  }
+}

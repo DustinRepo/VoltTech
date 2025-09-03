@@ -1,0 +1,933 @@
+{
+  "parent": "minecraft:block/cube",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#base"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#side"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#side"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#base"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            12.0,
+            8.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            11.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            11.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            11.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            12.0,
+            4.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            11.0
+          ]
+        }
+      },
+      "from": [
+        7,
+        5,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        8,
+        5
+      ],
+      "to": [
+        10,
+        9,
+        6
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        8,
+        10
+      ],
+      "to": [
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        5,
+        8,
+        6
+      ],
+      "to": [
+        6,
+        9,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        10,
+        8,
+        6
+      ],
+      "to": [
+        11,
+        9,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        10,
+        5
+      ],
+      "to": [
+        10,
+        11,
+        6
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        10,
+        10
+      ],
+      "to": [
+        10,
+        11,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        5,
+        10,
+        6
+      ],
+      "to": [
+        6,
+        11,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        10,
+        10,
+        6
+      ],
+      "to": [
+        11,
+        11,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        12,
+        5
+      ],
+      "to": [
+        10,
+        13,
+        6
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        6,
+        12,
+        10
+      ],
+      "to": [
+        10,
+        13,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        5,
+        12,
+        6
+      ],
+      "to": [
+        6,
+        13,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            8.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            4.0,
+            11.0,
+            1.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            0.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            12.0,
+            11.0,
+            4.0,
+            12.0
+          ]
+        }
+      },
+      "from": [
+        10,
+        12,
+        6
+      ],
+      "to": [
+        11,
+        13,
+        10
+      ]
+    }
+  ],
+  "textures": {
+    "antenna": "volttech:block/wireless_player_charger_antenna",
+    "base": "volttech:block/wireless_player_charger_base",
+    "particle": "volttech:block/wireless_player_charger_base",
+    "side": "volttech:block/wireless_player_charger_side"
+  }
+}

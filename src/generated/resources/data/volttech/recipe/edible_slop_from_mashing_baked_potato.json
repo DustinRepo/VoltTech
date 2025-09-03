@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:baked_potato",
+  "result": {
+    "count": 5,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

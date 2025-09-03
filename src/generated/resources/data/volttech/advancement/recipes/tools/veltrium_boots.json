@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:veltrium_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_veltrium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:veltrium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_veltrium_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:veltrium_boots"
+    ]
+  }
+}

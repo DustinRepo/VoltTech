@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:phantom_membrane",
+    "$": "minecraft:paper",
+    "&": "volttech:electric_component",
+    "@": "volttech:jetpack",
+    "X": "#c:feathers"
+  },
+  "pattern": [
+    "X@X",
+    "#$#",
+    "X&X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:jetpack_upgrade_card"
+  }
+}

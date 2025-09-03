@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_trexalite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:raw_trexalite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:crushed_trexalite_from_crushing_raw_trexalite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_trexalite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:crushed_trexalite_from_crushing_raw_trexalite"
+    ]
+  }
+}

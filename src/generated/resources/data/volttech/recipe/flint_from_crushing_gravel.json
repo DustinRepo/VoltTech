@@ -1,0 +1,14 @@
+{
+  "type": "volttech:crusher",
+  "chance": 0.75,
+  "chanceResult": {
+    "count": 1,
+    "id": "minecraft:flint"
+  },
+  "ingredient": "minecraft:gravel",
+  "result": {
+    "count": 2,
+    "id": "minecraft:flint"
+  },
+  "ticks": 50
+}

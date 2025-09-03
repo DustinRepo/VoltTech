@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "volttech:block/large_fluid_tank_frame"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/large_fluid_tank_wall"
+      }
+    }
+  ]
+}

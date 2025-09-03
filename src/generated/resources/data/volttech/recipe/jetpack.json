@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "volttech:booster",
+    "$": "volttech:medium_battery",
+    "@": "#c:leathers",
+    "X": "#c:strings"
+  },
+  "pattern": [
+    "X X",
+    "@$@",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:jetpack"
+  }
+}

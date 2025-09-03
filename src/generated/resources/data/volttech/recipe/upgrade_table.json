@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:anvil",
+    "$": "minecraft:smithing_table",
+    "%": "#c:ingots/iron",
+    "&": "minecraft:paper",
+    "@": "#c:player_workstations/crafting_tables",
+    "X": "#c:gems/lapis"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "%&%"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:upgrade_table"
+  }
+}

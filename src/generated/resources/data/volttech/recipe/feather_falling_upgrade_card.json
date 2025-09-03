@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": "minecraft:paper",
+    "X": "#c:feathers"
+  },
+  "pattern": [
+    "XXX",
+    "X$X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:feather_falling_upgrade_card"
+  }
+}

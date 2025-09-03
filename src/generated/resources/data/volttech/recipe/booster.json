@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:electric_component",
+    "minecraft:flint_and_steel",
+    "#c:ingots/iron"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:booster"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:swords",
+    "$": "minecraft:paper",
+    "X": "minecraft:apple"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:damage_upgrade_card"
+  }
+}

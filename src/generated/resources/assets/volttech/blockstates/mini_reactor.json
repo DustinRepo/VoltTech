@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "volttech:block/mini_reactor_frame"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/mini_reactor_inside"
+      }
+    }
+  ]
+}

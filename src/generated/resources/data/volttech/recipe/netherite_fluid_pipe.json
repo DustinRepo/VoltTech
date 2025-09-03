@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:netherite_ingot",
+    "X": "volttech:emerald_fluid_pipe"
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "count": 8,
+    "id": "volttech:netherite_fluid_pipe"
+  }
+}

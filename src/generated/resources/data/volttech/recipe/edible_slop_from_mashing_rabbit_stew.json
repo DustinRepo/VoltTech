@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:rabbit_stew",
+  "result": {
+    "count": 10,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

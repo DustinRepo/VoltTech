@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "volttech:raw_trexalite",
+  "result": {
+    "count": 1,
+    "id": "volttech:trexalite"
+  }
+}

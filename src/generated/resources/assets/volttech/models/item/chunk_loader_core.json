@@ -1,0 +1,217 @@
+{
+  "parent": "minecraft:block/cube",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#main"
+        },
+        "east": {
+          "texture": "#main"
+        },
+        "north": {
+          "texture": "#main"
+        },
+        "south": {
+          "texture": "#main"
+        },
+        "up": {
+          "texture": "#main"
+        },
+        "west": {
+          "texture": "#main"
+        }
+      },
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#design"
+        },
+        "north": {
+          "texture": "#design"
+        },
+        "south": {
+          "texture": "#design"
+        },
+        "up": {
+          "texture": "#design"
+        },
+        "west": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        4,
+        14,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#design"
+        },
+        "east": {
+          "texture": "#design"
+        },
+        "north": {
+          "texture": "#design"
+        },
+        "south": {
+          "texture": "#design"
+        },
+        "west": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#design"
+        },
+        "east": {
+          "texture": "#design"
+        },
+        "north": {
+          "texture": "#design"
+        },
+        "up": {
+          "texture": "#design"
+        },
+        "west": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        4,
+        4,
+        0
+      ],
+      "to": [
+        12,
+        12,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#design"
+        },
+        "east": {
+          "texture": "#design"
+        },
+        "south": {
+          "texture": "#design"
+        },
+        "up": {
+          "texture": "#design"
+        },
+        "west": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        4,
+        4,
+        14
+      ],
+      "to": [
+        12,
+        12,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#design"
+        },
+        "north": {
+          "texture": "#design"
+        },
+        "south": {
+          "texture": "#design"
+        },
+        "up": {
+          "texture": "#design"
+        },
+        "west": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        0,
+        4,
+        4
+      ],
+      "to": [
+        2,
+        12,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#design"
+        },
+        "east": {
+          "texture": "#design"
+        },
+        "north": {
+          "texture": "#design"
+        },
+        "south": {
+          "texture": "#design"
+        },
+        "up": {
+          "texture": "#design"
+        }
+      },
+      "from": [
+        14,
+        4,
+        4
+      ],
+      "to": [
+        16,
+        12,
+        12
+      ]
+    }
+  ],
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "design": "volttech:block/chunk_loader_core_design",
+    "main": "volttech:block/chunk_loader_core",
+    "particle": "volttech:block/chunk_loader_core"
+  }
+}

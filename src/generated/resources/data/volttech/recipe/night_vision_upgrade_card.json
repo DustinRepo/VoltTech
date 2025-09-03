@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:golden_carrot",
+    "$": "minecraft:paper",
+    "X": "#c:dusts/glowstone"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:night_vision_upgrade_card"
+  }
+}

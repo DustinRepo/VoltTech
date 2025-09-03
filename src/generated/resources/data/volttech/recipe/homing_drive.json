@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "volttech:medium_battery",
+    "&": "minecraft:compass",
+    "@": "minecraft:ender_eye",
+    "X": "#c:gems/diamond"
+  },
+  "pattern": [
+    "X#X",
+    "&$&",
+    "X@X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:homing_drive"
+  }
+}

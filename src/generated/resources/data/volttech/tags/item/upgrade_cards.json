@@ -1,0 +1,26 @@
+{
+  "values": [
+    "volttech:energy_upgrade_card",
+    "volttech:speed_upgrade_card",
+    "volttech:night_vision_upgrade_card",
+    "volttech:jump_boost_upgrade_card",
+    "volttech:jetpack_upgrade_card",
+    "volttech:feather_falling_upgrade_card",
+    "volttech:health_upgrade_card",
+    "volttech:water_breathing_upgrade_card",
+    "volttech:auto_feed_upgrade_card",
+    "volttech:fire_resist_upgrade_card",
+    "volttech:wither_resist_upgrade_card",
+    "volttech:poison_resist_upgrade_card",
+    "volttech:magnet_upgrade_card",
+    "volttech:phase_upgrade_card",
+    "volttech:regeneration_upgrade_card",
+    "volttech:step_height_upgrade_card",
+    "volttech:reach_upgrade_card",
+    "volttech:mining_speed_upgrade_card",
+    "volttech:mine_area_upgrade_card",
+    "volttech:evasion_upgrade_card",
+    "volttech:smelter_upgrade_card",
+    "volttech:damage_upgrade_card"
+  ]
+}

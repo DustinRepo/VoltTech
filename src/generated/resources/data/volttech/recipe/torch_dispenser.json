@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:torch",
+    "$": "volttech:small_battery",
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X#X",
+    "X$X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:torch_dispenser"
+  }
+}

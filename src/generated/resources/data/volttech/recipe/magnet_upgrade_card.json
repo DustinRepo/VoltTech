@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "minecraft:paper",
+    "@": "#c:dusts/redstone",
+    "X": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:magnet_upgrade_card"
+  }
+}

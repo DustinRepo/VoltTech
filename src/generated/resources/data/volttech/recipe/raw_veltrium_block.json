@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium",
+    "volttech:raw_veltrium"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:raw_veltrium_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "volttech:hellforged"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "volttech:hellforged"
+      }
+    ]
+  }
+}

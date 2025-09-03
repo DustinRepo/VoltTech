@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_diamond_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:crushed_diamond_from_crushing_deepslate_diamond_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_diamond_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:crushed_diamond_from_crushing_deepslate_diamond_ore"
+    ]
+  }
+}

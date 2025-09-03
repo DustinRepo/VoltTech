@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "volttech:small_energy_cube",
+    "$": "minecraft:copper_block",
+    "@": "minecraft:lightning_rod",
+    "X": "#minecraft:slabs"
+  },
+  "pattern": [
+    " @ ",
+    " $ ",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:wireless_player_charger"
+  }
+}

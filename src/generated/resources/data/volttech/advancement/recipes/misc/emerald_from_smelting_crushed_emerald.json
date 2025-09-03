@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crushed_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:crushed_emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:emerald_from_smelting_crushed_emerald"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crushed_emerald"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:emerald_from_smelting_crushed_emerald"
+    ]
+  }
+}

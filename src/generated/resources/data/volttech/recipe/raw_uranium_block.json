@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium",
+    "volttech:raw_uranium"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:raw_uranium_block"
+  }
+}

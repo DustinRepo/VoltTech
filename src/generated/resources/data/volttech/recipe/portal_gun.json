@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "volttech:grave_transporter",
+    "$": "volttech:electric_component",
+    "&": "minecraft:compass",
+    "@": "volttech:homing_drive",
+    "X": "minecraft:ender_eye"
+  },
+  "pattern": [
+    "X#X",
+    "&$&",
+    "X@X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:portal_gun"
+  }
+}

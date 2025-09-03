@@ -1,0 +1,104 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#connect"
+        },
+        "east": {
+          "texture": "#connect"
+        },
+        "north": {
+          "texture": "#connect"
+        },
+        "south": {
+          "texture": "#connect"
+        },
+        "up": {
+          "texture": "#connect"
+        },
+        "west": {
+          "texture": "#connect"
+        }
+      },
+      "from": [
+        6.5,
+        11.5,
+        6.5
+      ],
+      "to": [
+        9.5,
+        12,
+        9.5
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#connect"
+        },
+        "east": {
+          "texture": "#connect"
+        },
+        "north": {
+          "texture": "#connect"
+        },
+        "south": {
+          "texture": "#connect"
+        },
+        "up": {
+          "texture": "#connect"
+        },
+        "west": {
+          "texture": "#connect"
+        }
+      },
+      "from": [
+        7,
+        12,
+        7
+      ],
+      "to": [
+        9,
+        15.5,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#connect"
+        },
+        "east": {
+          "texture": "#connect"
+        },
+        "north": {
+          "texture": "#connect"
+        },
+        "south": {
+          "texture": "#connect"
+        },
+        "up": {
+          "texture": "#connect"
+        },
+        "west": {
+          "texture": "#connect"
+        }
+      },
+      "from": [
+        6,
+        15.5,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ]
+    }
+  ],
+  "textures": {
+    "connect": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  }
+}

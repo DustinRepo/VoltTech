@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crushed_redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:crushed_redstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:redstone_from_smelting_crushed_redstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crushed_redstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:redstone_from_smelting_crushed_redstone"
+    ]
+  }
+}

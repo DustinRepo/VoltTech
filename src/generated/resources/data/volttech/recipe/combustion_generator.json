@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:player_workstations/furnaces",
+    "$": "volttech:electric_component",
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:combustion_generator"
+  }
+}

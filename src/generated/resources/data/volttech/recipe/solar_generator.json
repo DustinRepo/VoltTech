@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "volttech:electric_component",
+    "$": "#c:cobblestones",
+    "X": "volttech:solar_panel"
+  },
+  "pattern": [
+    "XXX",
+    "$#$",
+    "$$$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:solar_generator"
+  }
+}

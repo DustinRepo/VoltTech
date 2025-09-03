@@ -1,0 +1,233 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        }
+      },
+      "from": [
+        4,
+        1,
+        3
+      ],
+      "to": [
+        12,
+        15,
+        4
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        }
+      },
+      "from": [
+        4,
+        1,
+        12
+      ],
+      "to": [
+        12,
+        15,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        }
+      },
+      "from": [
+        3,
+        1,
+        4
+      ],
+      "to": [
+        4,
+        15,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1.0,
+            1.0,
+            9.0,
+            15.0
+          ]
+        }
+      },
+      "from": [
+        12,
+        1,
+        4
+      ],
+      "to": [
+        13,
+        15,
+        12
+      ]
+    }
+  ],
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "volttech:block/small_fluid_tank",
+    "side": "volttech:block/small_fluid_tank"
+  }
+}

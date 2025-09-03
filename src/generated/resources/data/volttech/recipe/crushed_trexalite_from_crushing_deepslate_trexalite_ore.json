@@ -1,0 +1,14 @@
+{
+  "type": "volttech:crusher",
+  "chance": 0.15,
+  "chanceResult": {
+    "count": 1,
+    "id": "volttech:crushed_trexalite"
+  },
+  "ingredient": "volttech:deepslate_trexalite_ore",
+  "result": {
+    "count": 2,
+    "id": "volttech:crushed_trexalite"
+  },
+  "ticks": 100
+}

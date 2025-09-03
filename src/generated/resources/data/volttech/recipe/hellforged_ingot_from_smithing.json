@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "volttech:hellforged_shard",
+  "base": "minecraft:iron_ingot",
+  "result": {
+    "id": "volttech:hellforged_ingot"
+  },
+  "template": "minecraft:blaze_powder"
+}

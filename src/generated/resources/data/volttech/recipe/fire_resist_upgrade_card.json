@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:blaze_powder",
+    "$": "minecraft:paper",
+    "@": "minecraft:fire_charge",
+    "X": "minecraft:magma_cream"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:fire_resist_upgrade_card"
+  }
+}

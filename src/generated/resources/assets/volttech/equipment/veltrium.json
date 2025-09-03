@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "volttech:veltrium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "volttech:veltrium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hellforged_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:hellforged_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:hellforged_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hellforged_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:hellforged_boots"
+    ]
+  }
+}

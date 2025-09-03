@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:honey_bottle",
+  "result": {
+    "count": 6,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

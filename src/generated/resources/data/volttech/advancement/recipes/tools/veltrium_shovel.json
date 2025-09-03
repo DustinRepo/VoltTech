@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:veltrium_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_veltrium_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:veltrium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_veltrium_shovel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:veltrium_shovel"
+    ]
+  }
+}

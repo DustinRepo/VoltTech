@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:enchanted_golden_apple",
+  "result": {
+    "count": 4,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

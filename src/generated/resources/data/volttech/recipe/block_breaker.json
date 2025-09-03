@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:pickaxes",
+    "$": "volttech:electric_component",
+    "@": "#c:ingots/iron",
+    "X": "#c:cobblestones"
+  },
+  "pattern": [
+    "@#@",
+    "X$X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:block_breaker"
+  }
+}

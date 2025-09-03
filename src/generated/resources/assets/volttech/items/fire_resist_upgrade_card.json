@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "volttech:item/fire_resist_upgrade_card"
+  }
+}

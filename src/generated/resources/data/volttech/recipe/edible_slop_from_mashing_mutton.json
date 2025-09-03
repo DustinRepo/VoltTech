@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:mutton",
+  "result": {
+    "count": 2,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": "volttech:crushed_hellforged",
+  "result": {
+    "count": 1,
+    "id": "volttech:hellforged_shard"
+  }
+}

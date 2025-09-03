@@ -1,0 +1,167 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_default"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect"
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_up": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect",
+        "x": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_down": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_north": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_south": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_east": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipe_connect",
+        "x": 270,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_west": "connected|extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract"
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_up": "extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract",
+        "x": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_down": "extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_north": "extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_south": "extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_east": "extract"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/emerald_fluid_pipeextract",
+        "x": 270,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "connection_west": "extract"
+          }
+        ]
+      }
+    }
+  ]
+}

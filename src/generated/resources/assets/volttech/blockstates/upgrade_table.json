@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "volttech:block/upgrade_table"
+    }
+  }
+}

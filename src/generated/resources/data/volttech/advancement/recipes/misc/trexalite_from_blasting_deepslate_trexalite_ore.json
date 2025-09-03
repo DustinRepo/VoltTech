@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_trexalite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:deepslate_trexalite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:trexalite_from_blasting_deepslate_trexalite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_trexalite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:trexalite_from_blasting_deepslate_trexalite_ore"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/cube",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#inside"
+        },
+        "east": {
+          "texture": "#inside"
+        },
+        "north": {
+          "texture": "#inside"
+        },
+        "south": {
+          "texture": "#inside"
+        },
+        "up": {
+          "texture": "#inside"
+        },
+        "west": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "inside": "minecraft:block/glass",
+    "particle": "minecraft:block/glass"
+  }
+}

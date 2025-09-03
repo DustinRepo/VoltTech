@@ -1,0 +1,14 @@
+{
+  "type": "volttech:crusher",
+  "chance": 0.2,
+  "chanceResult": {
+    "count": 1,
+    "id": "volttech:crushed_dalekanium"
+  },
+  "ingredient": "volttech:raw_dalekanium",
+  "result": {
+    "count": 2,
+    "id": "volttech:crushed_dalekanium"
+  },
+  "ticks": 100
+}

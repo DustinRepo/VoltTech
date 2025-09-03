@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:infinite_torch_dispenser"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_torch_dispenser": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:torch_dispenser"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_torch_dispenser"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:infinite_torch_dispenser"
+    ]
+  }
+}

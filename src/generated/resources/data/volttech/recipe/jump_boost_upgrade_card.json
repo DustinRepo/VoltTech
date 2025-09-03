@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:slime_balls",
+    "$": "minecraft:paper",
+    "X": "minecraft:rabbit_foot"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:jump_boost_upgrade_card"
+  }
+}

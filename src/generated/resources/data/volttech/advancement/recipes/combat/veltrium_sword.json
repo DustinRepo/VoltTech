@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:veltrium_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_veltrium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:veltrium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_veltrium_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:veltrium_sword"
+    ]
+  }
+}

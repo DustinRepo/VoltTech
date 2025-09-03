@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:porkchop",
+  "result": {
+    "count": 3,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

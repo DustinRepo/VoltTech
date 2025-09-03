@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite",
+    "volttech:trexalite"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:trexalite_block"
+  }
+}

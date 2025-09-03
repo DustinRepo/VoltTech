@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:cooked_beef",
+    "$": "minecraft:paper",
+    "@": "minecraft:cooked_chicken",
+    "X": "minecraft:bread"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:auto_feed_upgrade_card"
+  }
+}

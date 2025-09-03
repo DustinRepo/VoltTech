@@ -1,0 +1,14 @@
+{
+  "type": "volttech:crusher",
+  "chance": 0.2,
+  "chanceResult": {
+    "count": 1,
+    "id": "volttech:crushed_iron"
+  },
+  "ingredient": "minecraft:raw_iron",
+  "result": {
+    "count": 2,
+    "id": "volttech:crushed_iron"
+  },
+  "ticks": 100
+}

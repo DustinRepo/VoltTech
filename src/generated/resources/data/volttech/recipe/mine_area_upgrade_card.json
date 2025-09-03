@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:pickaxes",
+    "$": "minecraft:paper",
+    "%": "#minecraft:axes",
+    "&": "#minecraft:hoes",
+    "@": "#minecraft:shovels",
+    "X": "#c:obsidians"
+  },
+  "pattern": [
+    "X#X",
+    "@$%",
+    "X&X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:mine_area_upgrade_card"
+  }
+}

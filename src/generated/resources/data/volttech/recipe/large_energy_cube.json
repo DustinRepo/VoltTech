@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:dusts/redstone",
+    "$": "volttech:medium_energy_cube",
+    "X": "#c:ingots/gold"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:large_energy_cube"
+  }
+}

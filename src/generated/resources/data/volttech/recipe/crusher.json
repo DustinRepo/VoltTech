@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:cobblestones",
+    "$": "volttech:electric_component",
+    "@": {
+      "neoforge:ingredient_type": "neoforge:block_tag",
+      "tag": "minecraft:stone_pressure_plates"
+    },
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X@X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:crusher"
+  }
+}

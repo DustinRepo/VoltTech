@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:dusts/redstone",
+    "#c:ingots/copper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:electric_component"
+  }
+}

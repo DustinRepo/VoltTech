@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "minecraft:paper",
+    "@": "minecraft:phantom_membrane",
+    "X": "#c:obsidians"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:phase_upgrade_card"
+  }
+}

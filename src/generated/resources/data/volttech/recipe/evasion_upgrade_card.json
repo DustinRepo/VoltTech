@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "minecraft:paper",
+    "@": "minecraft:sugar",
+    "X": "#c:feathers"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:evasion_upgrade_card"
+  }
+}

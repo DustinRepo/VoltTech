@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.bricked.volttech.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinCollisionGetter",
+    "MixinEntity",
+    "MixinItem",
+    "MixinItemStack",
+    "MixinPlayer",
+    "MixinServerGamePacketListenerImpl"
+  ]
+}

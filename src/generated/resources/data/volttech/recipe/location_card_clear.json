@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:location_card"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:location_card"
+  }
+}

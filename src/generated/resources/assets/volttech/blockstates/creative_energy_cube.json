@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "volttech:block/creative_energy_cube",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "volttech:block/creative_energy_cube",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "volttech:block/creative_energy_cube"
+    },
+    "facing=south": {
+      "model": "volttech:block/creative_energy_cube",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "volttech:block/creative_energy_cube",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "volttech:block/creative_energy_cube",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "volttech:block/chunk_loader_frame",
+    "model": {
+      "type": "volttech:chunk_loader_special"
+    }
+  }
+}

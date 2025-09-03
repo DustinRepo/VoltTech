@@ -1,0 +1,10 @@
+{
+  "values": [
+    "volttech:small_battery",
+    "volttech:medium_battery",
+    "volttech:large_battery",
+    "volttech:massive_battery",
+    "volttech:atomic_battery",
+    "volttech:creative_battery"
+  ]
+}

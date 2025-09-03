@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:veltrium_from_veltrium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_veltrium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:uranium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_veltrium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:veltrium_from_veltrium_block"
+    ]
+  }
+}

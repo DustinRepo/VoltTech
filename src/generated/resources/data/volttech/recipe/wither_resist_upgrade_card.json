@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:blaze_powder",
+    "$": "minecraft:paper",
+    "@": "minecraft:wither_rose",
+    "X": "minecraft:soul_sand"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:wither_resist_upgrade_card"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_default"
+      },
+      "when": {
+        "active": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_active_default"
+      },
+      "when": {
+        "active": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect"
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect",
+        "x": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "down": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "north": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "south": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "east": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "volttech:block/wireless_energy_transmitter_connect",
+        "x": 270,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "west": "true"
+          }
+        ]
+      }
+    }
+  ]
+}

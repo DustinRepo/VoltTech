@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:small_battery",
+    "#c:ender_pearls",
+    "#c:ingots/copper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:mechanized_ender_pearl"
+  }
+}

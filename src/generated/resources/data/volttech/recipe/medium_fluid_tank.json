@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:glass_blocks",
+    "$": "volttech:small_fluid_tank",
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:medium_fluid_tank"
+  }
+}

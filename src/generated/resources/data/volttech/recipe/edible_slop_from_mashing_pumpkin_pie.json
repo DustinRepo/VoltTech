@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:pumpkin_pie",
+  "result": {
+    "count": 8,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

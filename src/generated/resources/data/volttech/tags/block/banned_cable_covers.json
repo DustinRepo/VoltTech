@@ -1,0 +1,19 @@
+{
+  "values": [
+    "volttech:copper_energy_cable",
+    "volttech:iron_energy_cable",
+    "volttech:gold_energy_cable",
+    "volttech:diamond_energy_cable",
+    "volttech:emerald_energy_cable",
+    "volttech:netherite_energy_cable",
+    "volttech:copper_fluid_pipe",
+    "volttech:iron_fluid_pipe",
+    "volttech:gold_fluid_pipe",
+    "volttech:diamond_fluid_pipe",
+    "volttech:emerald_fluid_pipe",
+    "volttech:netherite_fluid_pipe",
+    "volttech:item_pipe",
+    "volttech:wireless_energy_transmitter",
+    "volttech:wireless_player_charger"
+  ]
+}

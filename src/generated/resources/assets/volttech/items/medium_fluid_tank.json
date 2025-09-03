@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "volttech:block/medium_fluid_tank_frame",
+    "model": {
+      "type": "volttech:fluid_tank_special"
+    }
+  }
+}

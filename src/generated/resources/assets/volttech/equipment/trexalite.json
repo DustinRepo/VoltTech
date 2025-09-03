@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "volttech:trexalite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "volttech:trexalite"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:buckets/lava",
+    "$": "volttech:electric_component",
+    "&": "#c:buckets/water",
+    "@": "#c:storage_blocks/redstone",
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X&X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:mini_reactor"
+  }
+}

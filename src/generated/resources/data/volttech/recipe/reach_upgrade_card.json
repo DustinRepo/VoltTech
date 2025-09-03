@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:spyglass",
+    "$": "minecraft:paper",
+    "@": "#c:rods/wooden",
+    "X": "#c:ender_pearls"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:reach_upgrade_card"
+  }
+}

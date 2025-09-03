@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "volttech:electric_component",
+    "%": "#c:gems/quartz",
+    "&": "minecraft:repeater",
+    "@": "#c:storage_blocks/redstone",
+    "X": "minecraft:clock"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "%&%"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:temporal_accelerator"
+  }
+}

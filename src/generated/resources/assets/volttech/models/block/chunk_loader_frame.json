@@ -1,0 +1,241 @@
+{
+  "parent": "minecraft:block/cube",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "up",
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#top"
+        },
+        "east": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#top"
+        },
+        "south": {
+          "texture": "#top"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#top"
+        }
+      },
+      "from": [
+        5,
+        3,
+        5
+      ],
+      "to": [
+        11,
+        4,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#top"
+        },
+        "east": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#top"
+        },
+        "south": {
+          "texture": "#top"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#top"
+        }
+      },
+      "from": [
+        7,
+        3,
+        7
+      ],
+      "to": [
+        9,
+        6,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "up",
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        3,
+        0
+      ],
+      "to": [
+        2,
+        8,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "up",
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        14,
+        3,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "up",
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        3,
+        14
+      ],
+      "to": [
+        2,
+        8,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "up",
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        14,
+        3,
+        14
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ]
+    }
+  ],
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "volttech:block/chunk_loader_bottom",
+    "particle": "volttech:block/chunk_loader_top",
+    "side": "volttech:block/chunk_loader_side",
+    "top": "volttech:block/chunk_loader_top"
+  }
+}

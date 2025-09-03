@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:tropical_fish",
+  "result": {
+    "count": 1,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

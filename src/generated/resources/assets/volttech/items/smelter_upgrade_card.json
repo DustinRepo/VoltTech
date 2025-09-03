@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "volttech:item/smelter_upgrade_card"
+  }
+}

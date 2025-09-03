@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot",
+    "volttech:dalekanium_ingot"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:dalekanium_block"
+  }
+}

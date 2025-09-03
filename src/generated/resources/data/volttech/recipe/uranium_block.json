@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot",
+    "volttech:uranium_ingot"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:uranium_block"
+  }
+}

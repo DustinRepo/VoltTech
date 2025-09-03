@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:pufferfish",
+    "$": "minecraft:paper",
+    "@": "minecraft:prismarine_shard",
+    "X": "minecraft:kelp"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:water_breathing_upgrade_card"
+  }
+}

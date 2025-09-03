@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "volttech:medium_battery",
+    "&": "minecraft:compass",
+    "@": "minecraft:totem_of_undying",
+    "X": "#c:gems/diamond"
+  },
+  "pattern": [
+    "X#X",
+    "&$&",
+    "X@X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:grave_transporter"
+  }
+}

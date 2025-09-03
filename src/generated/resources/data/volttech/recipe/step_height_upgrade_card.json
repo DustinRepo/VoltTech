@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:slime_balls",
+    "$": "minecraft:paper",
+    "@": "#c:ingots/iron",
+    "X": "minecraft:piston"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:step_height_upgrade_card"
+  }
+}

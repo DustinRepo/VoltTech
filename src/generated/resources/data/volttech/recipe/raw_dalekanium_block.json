@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium",
+    "volttech:raw_dalekanium"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:raw_dalekanium_block"
+  }
+}

@@ -1,0 +1,21 @@
+// 1.21.7	2025-08-06T18:02:46.5138525	Tags for minecraft:block mod id volttech
+4d87f0fa7f55998197a85ee25a0d135d63f69b58 data/c/tags/block/ores.json
+a4723024a79ee695705a56d759ac55e1a82622ab data/c/tags/block/ores/bronze.json
+9487d022b96980347773d4d2f2a38abc6f56a19e data/c/tags/block/ores/uranium.json
+a943488d24f6ad3361dee8f8503c4f7c14c6a2bd data/c/tags/block/ores_in_ground/deepslate.json
+9057fc3b59f32c72c9397f7a485ca95280698397 data/c/tags/block/ores_in_ground/end_stone.json
+69f8196c00d644c8d6adc2a457fef2736a3f0069 data/c/tags/block/ores_in_ground/netherrack.json
+68d004530095af8c79762301de1b522c4f6ea3b1 data/c/tags/block/ores_in_ground/stone.json
+55537ed48db90382d50e67a1bdc3f40dada5e7e9 data/c/tags/block/player_workstations/furnaces.json
+c61d88edf5e83f9ba809f3457bf9179357c8acf4 data/minecraft/tags/block/mineable/pickaxe.json
+cf742457b168a29d2fc08c62e8e16659431ea032 data/minecraft/tags/block/needs_diamond_tool.json
+70791f12446a2a2fb871b942f96567c1646672c1 data/minecraft/tags/block/needs_iron_tool.json
+f7d913ed3ef672236981f9707b2a24de9b51369c data/minecraft/tags/block/needs_stone_tool.json
+cfab2ab481bf476a645d326b87627918009b9e50 data/volttech/tags/block/banned_block_breaker.json
+a1f240e875a1603e1566535448afd32db197251a data/volttech/tags/block/banned_cable_covers.json
+09cdf13f35917924a018ecb7c5787d1af558703d data/volttech/tags/block/banned_phase.json
+110e46ebd17f88f42c2ea7b5c230d55156b39e14 data/volttech/tags/block/banned_temporal_accelerator.json
+a4723024a79ee695705a56d759ac55e1a82622ab data/volttech/tags/block/ores/dalekanium.json
+63ef843a762b6bfc24e67e8f8e2e12c02b530ecf data/volttech/tags/block/ores/hellish.json
+a58a0a38455a834ba541d0dcc36bda2a43015b94 data/volttech/tags/block/ores/trexalite.json
+9057fc3b59f32c72c9397f7a485ca95280698397 data/volttech/tags/block/ores/veltrium.json

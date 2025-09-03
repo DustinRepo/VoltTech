@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "volttech:item/mine_area_upgrade_card"
+  }
+}

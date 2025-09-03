@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "volttech:block/upgrade_table"
+  }
+}

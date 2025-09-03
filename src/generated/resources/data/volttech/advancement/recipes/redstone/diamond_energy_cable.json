@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_energy_cable": {
+      "conditions": {
+        "items": [
+          {
+            "items": "volttech:gold_energy_cable"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "volttech:diamond_energy_cable"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diamond_energy_cable"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "volttech:diamond_energy_cable"
+    ]
+  }
+}

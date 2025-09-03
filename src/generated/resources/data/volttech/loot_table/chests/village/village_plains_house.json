@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "volttech:atomic_battery",
+          "weight": 2
+        }
+      ],
+      "name": "volttech_village_pool",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "volttech:chests/village/village_plains_house"
+}

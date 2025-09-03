@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "volttech:block/copper_fluid_pipe_default"
+  }
+}

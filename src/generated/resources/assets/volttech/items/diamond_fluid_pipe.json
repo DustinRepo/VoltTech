@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "volttech:block/diamond_fluid_pipe_default"
+  }
+}

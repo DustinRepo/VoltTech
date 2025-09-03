@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "volttech:torch_dispenser",
+    "#c:nether_stars"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:infinite_torch_dispenser"
+  }
+}

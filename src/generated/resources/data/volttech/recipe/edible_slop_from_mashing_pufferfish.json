@@ -1,0 +1,9 @@
+{
+  "type": "volttech:food_masher",
+  "ingredient": "minecraft:pufferfish",
+  "result": {
+    "count": 1,
+    "id": "volttech:edible_slop"
+  },
+  "ticks": 50
+}

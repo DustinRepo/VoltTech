@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:fermented_spider_eye",
+    "$": "minecraft:paper",
+    "@": "#c:mushrooms",
+    "X": "minecraft:spider_eye"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:poison_resist_upgrade_card"
+  }
+}

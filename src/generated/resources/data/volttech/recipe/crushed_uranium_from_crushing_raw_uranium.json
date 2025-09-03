@@ -1,0 +1,14 @@
+{
+  "type": "volttech:crusher",
+  "chance": 0.5,
+  "chanceResult": {
+    "count": 1,
+    "id": "volttech:crushed_uranium"
+  },
+  "ingredient": "volttech:raw_uranium",
+  "result": {
+    "count": 2,
+    "id": "volttech:crushed_uranium"
+  },
+  "ticks": 100
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ender_pearls",
+    "$": "volttech:electric_component",
+    "&": "minecraft:comparator",
+    "@": "#c:storage_blocks/redstone",
+    "X": "#c:ingots/iron"
+  },
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X&X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "volttech:wireless_energy_transmitter"
+  }
+}

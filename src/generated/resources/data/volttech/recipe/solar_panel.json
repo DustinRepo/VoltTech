@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:glass_blocks",
+    "X": "#c:gems/lapis"
+  },
+  "pattern": [
+    "XXX",
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "count": 3,
+    "id": "volttech:solar_panel"
+  }
+}
