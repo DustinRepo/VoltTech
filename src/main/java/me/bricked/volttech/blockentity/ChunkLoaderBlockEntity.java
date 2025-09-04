@@ -8,6 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.chunk.LevelChunk;
+import org.jetbrains.annotations.NotNull;
 
 public class ChunkLoaderBlockEntity extends BlockEntity {
     public ChunkLoaderBlockEntity(BlockPos pos, BlockState blockState) {
@@ -16,8 +17,6 @@ public class ChunkLoaderBlockEntity extends BlockEntity {
     private int checkTicks = 0;
 
     public static void tick(Level level, BlockPos pos, BlockState state, ChunkLoaderBlockEntity blockEntity) {
-        // TODO: make a custom BlockEntityRenderer that uses an outline for base block (like Mini Reactor)
-        // and have the hazard block render rotating inside
         if (level.isClientSide())
             return;
         if (blockEntity.checkTicks > 0) {
@@ -36,7 +35,7 @@ public class ChunkLoaderBlockEntity extends BlockEntity {
     }
 
     @Override
-    public void preRemoveSideEffects(BlockPos pos, BlockState state) {
+    public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
         super.preRemoveSideEffects(pos, state);
         if (getLevel() instanceof ServerLevel serverLevel) {
             LevelChunk chunk = serverLevel.getChunkAt(pos);

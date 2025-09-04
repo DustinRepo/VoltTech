@@ -49,12 +49,6 @@ public class VoltTech {
         MenuRegistry.registerMenus(modEventBus);
         RecipeRegistry.registerRecipeTypes(modEventBus);
         ChunkGeneratorRegistry.registerChunkGenerators(modEventBus);
-        // Read energy/fluid config values (before normal config is loaded)
-        Constraints.loadDefaults();
-        Constraints.readConfigs();
-        // Read upgradeable items
-        UpgradeData.loadDefaults();
-        UpgradeData.readConfig();
     }
 
     @SubscribeEvent
@@ -76,6 +70,12 @@ public class VoltTech {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        // Read energy/fluid config values (before normal config is loaded)
+        Constraints.loadDefaults();
+        Constraints.readConfigs();
+        // Read upgradeable items
+        UpgradeData.loadDefaults();
+        UpgradeData.readConfig();
     }
 
     @SubscribeEvent
