@@ -22,6 +22,7 @@ import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.energy.IEnergyStorage;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -109,7 +110,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    public void preRemoveSideEffects(BlockPos pos, BlockState state) {
+    public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
         super.preRemoveSideEffects(pos, state);
         if (hasCover()) {
             ResourceLocation blockLocation = ResourceLocation.parse(getCoverBlockID());
@@ -121,7 +122,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    protected void saveAdditional(ValueOutput output) {
+    protected void saveAdditional(@NotNull ValueOutput output) {
         super.saveAdditional(output);
         int[] array = new int[blockedDirections.size()];
         for (int i = 0; i < blockedDirections.size(); i++) {
@@ -132,7 +133,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    protected void loadAdditional(ValueInput input) {
+    protected void loadAdditional(@NotNull ValueInput input) {
         super.loadAdditional(input);
         input.getIntArray("blockedDirections").ifPresent(ints -> {
             for (int directionOrdinal : ints) {
@@ -144,7 +145,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    public CompoundTag getUpdateTag(HolderLookup.Provider registries) {
+    public CompoundTag getUpdateTag(@NotNull HolderLookup.Provider registries) {
         CompoundTag compoundTag = new CompoundTag();
         int[] array = new int[blockedDirections.size()];
         for (int i = 0; i < blockedDirections.size(); i++) {
@@ -156,7 +157,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    public void handleUpdateTag(ValueInput input) {
+    public void handleUpdateTag(@NotNull ValueInput input) {
         loadAdditional(input);
     }
 
@@ -166,7 +167,7 @@ public class EnergyCableBlockEntity extends BlockEntity implements IEnergyBlockE
     }
 
     @Override
-    public void onDataPacket(Connection net, ValueInput valueInput) {
+    public void onDataPacket(@NotNull Connection net, @NotNull ValueInput valueInput) {
         loadAdditional(valueInput);
     }
 

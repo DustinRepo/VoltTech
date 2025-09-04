@@ -1,6 +1,5 @@
 package me.bricked.volttech.blockentity;
 
-import me.bricked.volttech.Config;
 import me.bricked.volttech.capability.forgeenergy.PlayerChargingEnergyStorage;
 import me.bricked.volttech.register.BlockEntityRegistry;
 import me.bricked.volttech.register.DataComponentRegistry;
@@ -16,6 +15,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 import net.neoforged.neoforge.energy.IEnergyStorage;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.UUID;
 
@@ -43,7 +43,7 @@ public class WirelessPlayerChargerBlockEntity extends BlockEntity implements IEn
     }
 
     @Override
-    public void preRemoveSideEffects(BlockPos pos, BlockState state) {
+    public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
         super.preRemoveSideEffects(pos, state);
         if (level.getBlockEntity(pos) instanceof WirelessPlayerChargerBlockEntity wirelessPlayerChargerBlockEntity) {
             ItemStack stack = new ItemStack(state.getBlock());
@@ -56,7 +56,7 @@ public class WirelessPlayerChargerBlockEntity extends BlockEntity implements IEn
     }
 
     @Override
-    protected void saveAdditional(ValueOutput output) {
+    protected void saveAdditional(@NotNull ValueOutput output) {
         super.saveAdditional(output);
         this.energyStorage.serialize(output);
         if (playerUUID != null && !playerUUID.isEmpty())
@@ -64,7 +64,7 @@ public class WirelessPlayerChargerBlockEntity extends BlockEntity implements IEn
     }
 
     @Override
-    protected void loadAdditional(ValueInput input) {
+    protected void loadAdditional(@NotNull ValueInput input) {
         super.loadAdditional(input);
         this.energyStorage.deserialize(input);
         this.playerUUID = input.getStringOr("playerUUID", "");
